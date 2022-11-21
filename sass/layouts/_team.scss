@@ -88,7 +88,7 @@
     line-height: 1.19;
     letter-spacing: 0.03em;
     text-align: center;
-    color: primary-text-color;
+    color: getColor('primary-text-color');
 }
 
 .team-txt {
