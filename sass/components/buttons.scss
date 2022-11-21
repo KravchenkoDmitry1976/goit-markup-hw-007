@@ -1,0 +1,86 @@
+.button-hero {
+    display: inline-block;
+    padding: 10px 32px;
+    margin-top: 30px;
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    color: getColor('alternative-text-color');
+    background-color: getColor('akcent-text-color');
+    transition-property: box-shadow, background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+&:hover,
+&:focus {
+    background-color: #188CE8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transform: scale(1.01);
+}
+}
+.button-submit{
+   
+    display: block;
+    margin: 0 auto;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: getColor('alternative-text-color');
+    padding-top: 10px;
+    padding-right: 52px;
+    padding-bottom: 10px;
+    padding-left: 52px;
+    left: 700px;
+    top: 712px;
+    background: getColor('akcent-text-color');
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    transition-property: box-shadow;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+.button-submit:hover,
+.button-submit:hover {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+.button-mailing {
+    display: flex;
+    padding-top: 5px;
+    padding-right: 28px;
+    padding-bottom: 5px;
+    padding-left: 28px;
+    left: 1185px;
+    top: 2784px;
+    background: getColor('akcent-text-color');
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 2.4;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: getColor('alternative-text-color');
+    padding-right: 40px;
+    transition-property: box-shadow;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.button-mailing:hover,
+.button-mailing:focus {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}

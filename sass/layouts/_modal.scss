@@ -191,33 +191,3 @@
     cursor: pointer;
 }
 
-.form-button {
-    display: block;
-    margin: 0 auto;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.88;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.06em;
-    color: getColor('alternative-text-color');
-    padding-top: 10px;
-    padding-right: 52px;
-    padding-bottom: 10px;
-    padding-left: 52px;
-    left: 700px;
-    top: 712px;
-    background: getColor('akcent-text-color');
-    border-radius: 4px;
-    border: none;
-    cursor: pointer;
-    transition-property: box-shadow;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
-}
-
-.form-button:hover,
-.form-button:hover {
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-}
