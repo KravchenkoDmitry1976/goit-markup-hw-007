@@ -1,7 +1,7 @@
 .modal {
     width: 528px;
     min-height: 581px;
-    background-color: alternative-text-color;
+    background-color: getColor('alternative-text-color');
     border-radius: 4px;
     position: absolute;
     padding: 40px;
@@ -44,18 +44,18 @@
 }
 
 .modal-input:focus+.icon-wrap {
-    fill: akcent-text-color;
+    fill: getColor('akcent-text-color');
 }
 
 .modal-input:focus {
-    border: 1px solid akcent-text-color;
+    border: 1px solid getColor('akcent-text-color');
 }
 
 .modal-close {
     width: 30px;
     height: 30px;
     background-color: transparent;
-    border: 1px solid paragraph-text-color;
+    border: 1px solid getColor('paragraph-text-color');
     border-radius: 50%;
     position: absolute;
     right: 14px;
@@ -70,7 +70,7 @@
 }
 
 .modal-close:hover .icon-close {
-    fill: akcent-text-color;
+    fill: getColor('akcent-text-color');
 }
 
 .input-wrap {
@@ -100,7 +100,7 @@
     font-size: 12px;
     line-height: calc(14/12);
     letter-spacing: 0.01em;
-    color: paragraph-text-color;
+    color: getColor('paragraph-text-color');
 }
 
 .form-textarea {
@@ -127,7 +127,7 @@
 }
 
 .modal-textarea:focus {
-    border: 1px solid akcent-text-color;
+    border: 1px solid getColor('akcent-text-color');
 }
 
 .modal-textarea::placeholder,
@@ -161,8 +161,8 @@
 }
 
 .checkbox:checked+.icon-checkbox {
-    border-color: #2196F3;
-    background-color: #2196F3;
+    border-color: getColor('akcent-text-color');
+    background-color: getColor('akcent-text-color');
     background-image: url(../images/icon\ check.svg);
     background-size: contain;
     background-position: center;
@@ -179,7 +179,7 @@
     line-height: calc(24/14);
     margin-left: 8px;
     letter-spacing: 0.03em;
-    color: paragraph-text-color;
+    color: getColor('paragraph-text-color');
 }
 
 .span-text {
@@ -187,7 +187,7 @@
     line-height: calc(24/14);
     letter-spacing: 0.03em;
     text-decoration-line: underline;
-    color: #2196F3;
+    color: getColor('akcent-text-color');
     cursor: pointer;
 }
 
@@ -200,14 +200,14 @@
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-    color: alternative-text-color;
+    color: getColor('alternative-text-color');
     padding-top: 10px;
     padding-right: 52px;
     padding-bottom: 10px;
     padding-left: 52px;
     left: 700px;
     top: 712px;
-    background: akcent-text-color;
+    background: getColor('akcent-text-color');
     border-radius: 4px;
     border: none;
     cursor: pointer;

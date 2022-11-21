@@ -72,11 +72,11 @@
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
-    color: primary-text-color;
+    color: getColor('primary-text-color');
 }
 
 .benefits-txt {
     margin-top: 10px;
     line-height: 1.71;
-    color: paragraph-text-color;
+    color: getColor('paragraph-text-color');
 }

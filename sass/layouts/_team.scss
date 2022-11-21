@@ -10,7 +10,7 @@
 }
 
 .team-item {
-    background-color: background-color;
+    background-color: getColor('background-color');
     width: 270px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
@@ -52,14 +52,14 @@
 
 .team-soc-link:hover,
 .team-soc-link:focus {
-    background-color: akcent-text-color;
+    background-color: getColor('akcent-text-color');
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
 }
 
 .team-soc-link:hover .team-soc-icon,
 .team-soc-link:focus .team-soc-icon {
-    fill: alternative-text-color;
+    fill: getColor('alternative-text-color');
 
 }
 
@@ -96,5 +96,5 @@
     line-height: 1.19;
     letter-spacing: 0.03em;
     text-align: center;
-    color: paragraph-text-color;
+    color: getColor('paragraph-text-color');
 }
