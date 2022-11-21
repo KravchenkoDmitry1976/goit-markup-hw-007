@@ -1,0 +1,82 @@
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+.benefits {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.benefits-list {
+    display: flex;
+}
+
+.benefits-item {
+    width: 270px;
+}
+
+.benefits-item+.benefits-item {
+    margin-left: 30px;
+}
+
+.box-benefits {
+    min-width: 270px;
+    height: 120px;
+    background-color: #F5F4FA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+
+/*.benefits-item::before{
+    content: "";
+    display: block;
+    height: 120px;
+    background-color:#F5F4FA ;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+.benefits-item:nth-child(1)::before{
+    background-image: url(./images/antenna/1.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.benefits-item:nth-child(2)::before {
+    background-image: url(../images/clock\ 1.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.benefits-item:nth-child(3)::before {
+    background-image: url(../images/diagram\ 1.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.benefits-item:nth-child(4)::before {
+    background-image: url(../images/astronaut\ 1.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}*/
+.benefits-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    color: primary-text-color;
+}
+
+.benefits-txt {
+    margin-top: 10px;
+    line-height: 1.71;
+    color: paragraph-text-color;
+}

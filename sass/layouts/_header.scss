@@ -1,0 +1,139 @@
+.link-logo {
+    display: flex;
+    align-items: center;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: akcent-text-color;
+    text-decoration: none;
+}
+
+.logo-piece {
+    color: primary-text-color;
+
+}
+
+.header {
+    border-bottom: 1px solid;
+
+}
+
+.header-link {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: primary-text-color;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header-link.current {
+    color: akcent-text-color;
+    position: relative;
+}
+
+.header-link.current::after {
+    content: "";
+    display: block;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 4px;
+    position: absolute;
+    background-color: akcent-text-color;
+    border-radius: 2px;
+}
+
+.contacts-item {
+    display: flex;
+}
+
+.contacts-icon {
+    fill: paragraph-text-color;
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.contacts-item+.contacts-item {
+    margin-left: 50px;
+}
+
+.contacts-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: paragraph-text-color;
+    text-decoration: none;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header-link:hover,
+.address-link:hover,
+.contacts-link:hover,
+.footer-link:hover {
+    color: akcent-text-color;
+
+}
+
+.header-link:focus,
+.address-link:focus,
+.contacts-link:focus,
+.footer-link:focus {
+    color: akcent-text-color;
+}
+
+.contacts-link:hover .contacts-icon,
+.contacts-link:focus .contacts-icon {
+    fill: akcent-text-color;
+}
+
+.container-nav {
+    display: flex;
+    align-items: center;
+    /*width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;*/
+}
+
+.header-navigation {
+    display: flex;
+}
+
+.header-contacts {
+    display: flex;
+    margin-left: auto;
+}
+
+.header-list {
+    display: flex;
+    margin-left: 90px;
+}
+
+.header-item:not(:last-child) {
+
+    margin-right: 50px;
+}
+
+.header-portfolio {
+    border-bottom: 1px solid rgb(245, 244, 250);
+}

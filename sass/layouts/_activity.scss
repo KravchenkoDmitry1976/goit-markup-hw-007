@@ -1,0 +1,50 @@
+.activity {
+    padding-bottom: 94px;
+}
+
+.activity-title {
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+
+.activity-list {
+    display: flex;
+}
+
+.activity-item {
+    width: 370px;
+}
+
+.activity-item+.activity-item {
+    margin-left: 30px;
+}
+
+.activity-img {
+    height: 294px;
+}
+
+.activity-box {
+    position: relative;
+}
+
+.activity-txt {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: alternative-text-color;
+    background-color: rgba(47, 48, 58, 0.8);
+    width: 100%;
+    height: 23.8%;
+    bottom: 0;
+    padding: auto;
+}
