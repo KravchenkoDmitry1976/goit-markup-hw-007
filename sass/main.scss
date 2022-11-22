@@ -1,10 +1,9 @@
 @import './utils/vars';
 @import './base/base';
 @import './base/reset';
-@import './components/container.scss';
-@import './components/logo.scss';
-@import './components/buttons.scss';
-@import './components/social-network-list.scss';
+@import './components/container';
+@import './components/logo';
+@import './components/buttons';
 @import './layouts/header';
 @import './layouts/hero';
 @import './layouts/benefits';
