@@ -1,4 +1,4 @@
-.button, .button-mailing, .button-submit, .button-hero {
+.button, .button-filter, .button-mailing, .button-submit, .button-hero {
   display: block;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -58,4 +58,23 @@
 }
 .button-mailing:hover, .button-mailing:focus {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.button-filter {
+  padding: 6px 22px;
+  background-color: #F5F4FA;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: getColor("primary-text-color");
+  transition-property: color, box-shadow, background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.button-filter:hover, .button-filter:focus {
+  color: getColor("alternative-text-color");
+  background-color: getColor("akcent-text-color");
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }/*# sourceMappingURL=buttons.css.map */
