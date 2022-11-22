@@ -7,7 +7,7 @@
 
 .team__list {
     display: flex;
-
+}
 
 
 .team__item {
@@ -58,8 +58,8 @@
 
 }
 
-.team__soc-link:hover .team-soc-icon,
-.team__soc-link:focus .team-soc-icon {
+.team__soc-link:hover .team__soc-icon,
+.team__soc-link:focus .team__soc-icon {
     fill: getColor('alternative-text-color');
 
 }

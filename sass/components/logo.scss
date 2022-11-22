@@ -10,6 +10,7 @@
     text-decoration: none;
 &__piece--dark {
     color: getColor('primary-text-color');
+    display: inline-flex;
 }
 &__piece--light{
     color: getColor('alternative-text-color');
